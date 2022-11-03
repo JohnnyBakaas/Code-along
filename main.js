@@ -1,7 +1,3 @@
-//
-
-let log = "";
-
 let lotteryOne = `Kake`;
 let lotteryTwo = `Sydentur`;
 let lotteryThree = `Ett gratis måltid på McDonald's`;
@@ -18,11 +14,7 @@ function randomOut(designatedDiv) {
 
   console.log(svar);
 
-  //lagre svaret
-  log += svar;
-
   designatedDiv.innerHTML = numberToAnswer(svar);
-  winner();
 }
 
 function numberToAnswer(randomNumber) {
